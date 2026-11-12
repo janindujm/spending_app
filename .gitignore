@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+
+# Local configuration (SDK path etc.)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing material — never commit keystores or their passwords
+*.jks
+*.keystore
+keystore.properties
+
+# Generated / outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db

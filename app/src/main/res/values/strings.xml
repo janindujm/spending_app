@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpendPlan</string>
+    <string name="channel_budget_alerts">Budget alerts</string>
+    <string name="channel_budget_alerts_desc">Alerts when a category reaches 80% or 100% of its monthly budget</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground (108dp canvas, art kept inside the 66dp safe zone):
+     a planner card with three rising bars and a check mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- card -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,30h40a6,6 0,0 1,6 6v36a6,6 0,0 1,-6 6h-40a6,6 0,0 1,-6 -6v-36a6,6 0,0 1,6 -6z" />
+    <!-- card header strip -->
+    <path
+        android:fillColor="#F2B53A"
+        android:pathData="M34,30h40a6,6 0,0 1,6 6v4h-52v-4a6,6 0,0 1,6 -6z" />
+    <!-- bars -->
+    <path
+        android:fillColor="#0F6B5C"
+        android:pathData="M36,70h7v-12h-7z M47,70h7v-19h-7z M58,70h7v-25h-7z" />
+    <!-- check -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F2B53A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M67,58l4,4l7,-9" />
+</vector>
